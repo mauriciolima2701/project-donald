@@ -50,7 +50,7 @@ export default function Home() {
             Read our docs
           </a>
           <div>
-            <Button variant={"outline"}> Testando botão </Button>
+            <Button> Testando botão </Button>
             <Input placeholder="Testando input" />
           </div>
         </div>
