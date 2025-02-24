@@ -5,8 +5,7 @@ import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-5">
-      <h1 className="text-3xl">HOME</h1>
+    <div>
       <div>
         <Image
           className="dark:invert"
@@ -17,10 +16,8 @@ export default function Home() {
           priority
         />
       </div>
-      <div className="flex gap-3">
-        <Button> Testando botão </Button>
-        <Input placeholder="Testando input" />
-      </div>
+      <Button> Testando botão </Button>
+      <Input placeholder="Testando input" />
     </div>
   );
 }
