@@ -17,7 +17,7 @@ const ProductHeader = ({ product }: ProductHeaderProps) => {
     const handleClickBack = () => back()
 
     return (
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full min-h-[300px]">
             <Image
                 src={product.imageUrl}
                 alt={product.name}
